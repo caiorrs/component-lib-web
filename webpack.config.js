@@ -13,6 +13,11 @@ module.exports = {
     filename: 'bundle.js',
     path: path.join(__dirname, '/build'),
   },
+  resolve: {
+    alias: {
+      'react-native$': 'react-native-web',
+    },
+  },
   module: {
     rules: [
       {

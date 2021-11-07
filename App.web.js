@@ -1,10 +1,13 @@
+import {ActivityIndicator, Text, View} from 'react-native';
+
 import React from 'react';
 
 function App() {
   return (
-    <>
-      <h1>Hello world from react</h1>
-    </>
+    <View>
+      <Text>Hello world from react native</Text>
+      <ActivityIndicator />
+    </View>
   );
 }
 
